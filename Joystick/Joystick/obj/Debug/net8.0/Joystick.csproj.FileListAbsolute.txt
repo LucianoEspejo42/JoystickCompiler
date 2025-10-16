@@ -1,0 +1,15 @@
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.AssemblyInfoInputs.cache
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.AssemblyInfo.cs
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.csproj.CoreCompileInputs.cache
+C:\Users\usuario\source\repos\Joystick\Joystick\bin\Debug\net8.0\Joystick.exe
+C:\Users\usuario\source\repos\Joystick\Joystick\bin\Debug\net8.0\test1.jsk
+C:\Users\usuario\source\repos\Joystick\Joystick\bin\Debug\net8.0\Joystick.deps.json
+C:\Users\usuario\source\repos\Joystick\Joystick\bin\Debug\net8.0\Joystick.runtimeconfig.json
+C:\Users\usuario\source\repos\Joystick\Joystick\bin\Debug\net8.0\Joystick.dll
+C:\Users\usuario\source\repos\Joystick\Joystick\bin\Debug\net8.0\Joystick.pdb
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.dll
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\refint\Joystick.dll
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.pdb
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\Joystick.genruntimeconfig.cache
+C:\Users\usuario\source\repos\Joystick\Joystick\obj\Debug\net8.0\ref\Joystick.dll

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Joystick": {
+      "commandName": "Project",
+      "commandLineArgs": "test1.jsk"
+    }
+  }
+}
