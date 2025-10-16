@@ -1,0 +1,46 @@
+﻿COMPILER JoystickLang
+
+CHARACTERS
+  letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".
+  digit = "0123456789".
+  
+TOKENS
+  MOVE = "MOVE".
+  BUTTON = "BUTTON".
+  PRESS = "PRESS".
+  RELEASE = "RELEASE".
+  WAIT = "WAIT".
+  DIRECTION = "UP" | "DOWN" | "LEFT" | "RIGHT".
+  BUTTON_NAME = "A" | "B" | "X" | "Y" | "START" | "SELECT".
+  NUMBER = digit {digit}.
+
+IGNORE '\t' + '\r' + '\n' + ' '
+
+PRODUCTIONS
+JoystickLang = {Command} EOF.
+
+Command = (
+    MovementCommand
+  | ButtonCommand
+  | WaitCommand
+  ) .
+
+MovementCommand = MOVE DIRECTION (. 
+    Console.WriteLine("Moviendo joystick: " + t.val);
+    ExecuteMovement(t.val);
+  .).
+
+ButtonCommand = BUTTON BUTTON_NAME (PRESS | RELEASE) (. 
+    string button = tokens[1].val;
+    string action = tokens[2].val;
+    Console.WriteLine("Boton " + button + ": " + action);
+    ExecuteButton(button, action);
+  .).
+
+WaitCommand = WAIT NUMBER (. 
+    int seconds = int.Parse(t.val);
+    Console.WriteLine("Esperando " + seconds + " segundos...");
+    System.Threading.Thread.Sleep(seconds * 1000);
+  .).
+
+END JoystickLang.
